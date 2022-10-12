@@ -1,0 +1,16 @@
+.label {
+    color: #080808;
+    margin-bottom: 6px;
+}
+
+.input {
+    padding: 12px;
+    border-radius: 8px;
+    border: solid 1px #343434;
+    color: #080808;
+}
+
+.fieldwrapper {
+    display: flex;
+    flex-direction: column;
+}

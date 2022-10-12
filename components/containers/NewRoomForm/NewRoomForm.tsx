@@ -1,7 +1,7 @@
+import Button from '@components/common/Button'
+import FormField from '@components/common/FormField'
 import clsx from 'clsx'
 import { SyntheticEvent, useCallback, useState } from 'react'
-import Button from '../../common/Button'
-import FormField from '../../common/FormField'
 import styles from './NewRoomForm.module.css'
 
 interface NewRoomFormValues {

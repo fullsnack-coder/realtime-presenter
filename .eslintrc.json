@@ -16,7 +16,9 @@
   },
   "plugins": ["react"],
   "rules": {
-    "no-unused-vars": "error"
+    "no-unused-vars": "error",
+    "react/prop-types": "off",
+    "@typescript-eslint/strict-boolean-expressions": "off"
   },
   "settings": {
     "react": {

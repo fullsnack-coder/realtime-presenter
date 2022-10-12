@@ -1,0 +1,25 @@
+.button {
+    border-radius: 8px;
+    padding: 12px 22px;
+    cursor: pointer;
+    transition: all ease-out .2s;
+}
+
+.primary {
+    background-color: #002fff;
+    color: #fff;
+}
+
+.primary:hover {
+    background-color: #1035db;
+}
+
+.secondary {
+    border: solid 1px blue;
+    color: blue;
+    background-color: transparent;
+}
+
+.isLoading {
+    opacity: .5;
+}

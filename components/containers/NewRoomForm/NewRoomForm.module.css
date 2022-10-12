@@ -1,0 +1,21 @@
+.formbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.formheading {
+    color: #000;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.switchText {
+    position: relative;
+    pointer-events: none;
+    z-index: 9;
+    font-weight: 600;
+}
+
+.textActive {
+    color: #fff;
+}

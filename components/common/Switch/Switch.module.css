@@ -1,0 +1,32 @@
+
+.switchBox {
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    border: solid 1px black;
+    width: fit-content;
+    overflow: hidden;
+    padding: 8px;
+    position: relative;
+    display: flex;
+}
+
+.switchBox > .switchButton {
+    padding: 4px;
+}
+
+.switchThumb {
+    z-index: 1;
+    background: #0101ba;
+    border-radius: 4px;
+    height: calc(100% - 10px);
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all ease-out .3s;
+}
+
+.switchBox.active .switchThumb {
+    transform: translateY(-50%) translateX(var(--translation));
+}

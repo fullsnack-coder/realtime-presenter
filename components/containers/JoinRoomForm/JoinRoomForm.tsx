@@ -1,6 +1,6 @@
+import Button from '@components/common/Button'
+import FormField from '@components/common/FormField'
 import { useCallback, useState } from 'react'
-import Button from '../../common/Button'
-import FormField from '../../common/FormField'
 import styles from './JoinRoomForm.module.css'
 
 interface Props {

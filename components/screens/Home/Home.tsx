@@ -13,14 +13,17 @@ const HomeScreen: React.FC = () => {
 
   return (
     <div className={styles.wrapper}>
-        <h1 className={styles.heading}>REALTIME PRESENTER</h1>
-        <JoinRoomForm onSubmitJoinRoom={handleJoinToRoom} createRoomAction={() => setIsOpen(true)} />
-        <Dialog open={isOpen} onClose={() => setIsOpen(false)}>
-            <div className={styles.modalBackground} />
-            <Dialog.Panel className={styles.modalPanel}>
-                <NewRoomForm onSubmitNewRoom={e => alert(JSON.stringify(e))} />
-            </Dialog.Panel>
-        </Dialog>
+      <h1 className={styles.heading}>REALTIME PRESENTER</h1>
+      <JoinRoomForm
+        onSubmitJoinRoom={handleJoinToRoom}
+        createRoomAction={() => setIsOpen(true)}
+      />
+      <Dialog open={isOpen} onClose={() => setIsOpen(false)}>
+        <div className={styles.modalBackground} />
+        <Dialog.Panel className={styles.modalPanel}>
+          <NewRoomForm onSubmitNewRoom={(e) => alert(JSON.stringify(e))} />
+        </Dialog.Panel>
+      </Dialog>
     </div>
   )
 }

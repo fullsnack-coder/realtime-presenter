@@ -19,7 +19,6 @@ const useRoom = ({ roomCode, roomPassword, ...rest }: UseRoomParams & UseQueryOp
       const roomInfo = await getRoomInfo({ roomCode, password: roomPassword })
       return roomInfo
     },
-    enabled: false,
     ...rest
   })
 

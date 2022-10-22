@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    background: #000;
+}
+
+.container .image {
+    aspect-ratio: 16 / 9;
+    max-width: 100%;
+}
+
+.presenterHeader {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.presenterFooter {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}

@@ -1,0 +1,23 @@
+.slidewrapper {
+    max-width: 500px;
+    height: 180px;
+    border-radius: 8px;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    position: relative;
+}
+
+.slidewrapper .overlay {
+    background: rgb(0, 0, 4);
+    background: linear-gradient(180deg, #000004 0%, #0909796b 28%, #00d4ff00 100%);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.slidewrapper img {
+    width: 100%;
+    height: 100%;
+}

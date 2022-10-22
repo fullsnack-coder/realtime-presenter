@@ -1,0 +1,47 @@
+.slidesWrapper {
+  display: flex;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.slideWrapper {
+  position: relative;
+  margin-right: 12px;
+  border: solid 3px transparent;
+}
+
+.slideWrapper:first-of-type {
+  margin-left: 12px;
+}
+
+.closeButton {
+  cursor: pointer;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  border-radius: 50%;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.closeButton svg {
+  fill: #fff;
+}
+
+.isActive {
+  border-radius: 10px;
+  border-color: #9988ff;
+}
+
+@media only screen and (min-width: 1000px) {
+  .closeButton:hover {
+    background-color: white;
+  }
+
+  .closeButton:hover svg {
+    fill: black;
+  }
+}

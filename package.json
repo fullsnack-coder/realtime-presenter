@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.3",
+    "@svgr/webpack": "^6.5.0",
     "@tanstack/react-query": "^4.9.0",
     "clsx": "^1.2.1",
     "next": "12.3.1",
